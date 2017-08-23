@@ -39,21 +39,21 @@ __R:__
 
 __R:__
 
-+ ` `
++ `Existen dos generales: Multiple Sequence Alignment (MSA) y Pairwise Sequence Alignment, en donde cada uno posee subtipos correspondientes a cada programa y desarrollador bioinformático que poseen distintos enfoques y funcionalidades. `
 
 
 #### ¿Cuál es el programa que ellos ofrecen que funciona mejor para secuencias de proteínas?
 
 __R:__
 
-+ ` `
++ `Clustal Omega [2], MUSCLE [3] y Align UniProt [4].`
 
 
 #### ¿Qué otros tipo de herramientas ofrece EMBL-EBI?
 
 __R:__
 
-+ ` `
++ `Posee muchísimas otras herramientas [5] `
 
 
 
@@ -67,3 +67,7 @@ __R:__
 # Bibliografía
 
 [1] https://www.ncbi.nlm.nih.gov/gene/?Term=ortholog_gene_6736[group]
+[2] http://www.ebi.ac.uk/Tools/msa/clustalo/
+[3] http://www.ebi.ac.uk/Tools/msa/muscle/
+[4] http://www.uniprot.org/align/
+[5] http://www.ebi.ac.uk/services/all
