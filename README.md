@@ -56,6 +56,73 @@ __R:__
 + `Posee muchísimas otras herramientas [5] `
 
 
+#### ¿Cuál es el costo de abrir un gap?
+
+__R:__
+
++ `El costo de abrir un gap es de 1.53 [6] `
+
+#### ¿Cuál es el costo de extender un gap?
+
+__R:__
+
++ `El costo de extender un gap es de 0.123 `
+
+
+#### ¿Cuál es la longitud total del alineamiento?
+
+__R:__
+
+
++ `El alineamiento posee 1932 columnas en el fragmento consensus. `
+
+#### ¿Cuál es la especie cuyo gen SRY está más relacionado con el gen SRY de humanos?
+
+__R:__
+
++ `La especie que posee el mRNA más cercano a la especie humana es Pan troglodytes. `
+
+
+#### ¿Cuál es el más lejano?
+
+__R:__
+
++ `La especie más lejana es Pteropus alecto, ya que posee la puntuación más alta (0.12288) `
+
+
+#### ¿Cuál es la especie cuyo gen SRY es más cercana a la del burro?
+
+__R:__
+
++ `La especie más cercana al mRNA del burro es Equus przewalskii. `
+
+
+#### ¿Cómo esperas que sea el alineamiento si el costo de abrir un gap aumenta? ¿Y si disminuye?
+
+__R:__
+
++ `Si el puntaje de penalización de abrir gaps aumenta, entonces el programa tenderá a tener una menor cantidad de gaps pero con una mayor extensión cada uno.` 
+
+
+#### ¿Cómo esperas que sea el alineamiento si el costo de extender un gap aumenta? ¿Y si disminuye?
+
+__R:__
+
+
++ `Si el puntaje de extender un gap aumenta, entonces el programa va a tender a favorecer muchos gaps de muy corta longitud. `
+
+
+#### ¿Cuál fue el efecto de aumentar el costo de abrir un gap en la longitud total del alineamiento? prueba lo mismo pero esta vez disminuyendo al mínimo el costo de extender un gap. Describe cómo cambia el alineamiento
+
+
+__R:__
+
++ `Al aumentar de 1.53 a 2.00, la longitud total del consensus fue la misma que en 1.53. Esto se deba probablemente a que los dominios que conforman a la proteína homóloga estén conservados evolutivamente (además de ser relativamente corta). Para el valor '0,1' en extender gap, el resultado fue que la longitud total del fragmento consensus disminuyó a 1907 (vs el 1932). Esto es porque los gaps que se abrieron son de menor longitud. `
+
+# Parte 3: Diseño de partidores
+
+------
+
 
 
 
@@ -71,3 +138,4 @@ __R:__
 [3] http://www.ebi.ac.uk/Tools/msa/muscle/
 [4] http://www.uniprot.org/align/
 [5] http://www.ebi.ac.uk/services/all
+[6] http://www.ebi.ac.uk/Tools/msa/mafft/
